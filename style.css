@@ -1,0 +1,34 @@
+table,div.error,div.transaction{
+    /*border: solid black 0.2rem;*/
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr{
+    background-color: cornflowerblue;
+}
+td,th{
+    border: solid black 0.1rem;
+    min-width: 10rem;
+}
+th{
+    background-color: darkorange;
+}
+
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+div.error{
+    border: 1px;
+    color:red;
+}
+div.error.detail{
+    overflow: auto;
+    height:200px;
+}
+.hide{
+    display: none;
+}
